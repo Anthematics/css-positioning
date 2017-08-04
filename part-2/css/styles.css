@@ -16,7 +16,8 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  display: inline;
 }
 
 figure {
@@ -24,6 +25,53 @@ figure {
 }
 
 .film {
-  width: 50%;
+  width: 75%;
   margin: 40px auto;
+  border: 1px black solid;
+  padding:15px;
+  display: block;
 }
+
+.film-poster{
+  display: inline-block;
+  position: relative;
+  width: 40%;
+}
+
+.film-details{
+  display:inline-block;
+  width: 50%;
+  position: relative;
+}
+
+.filmtitle {
+}
+
+p {
+  position: relative;
+}
+
+.action-like {
+  position: absolute;
+  bottom:0%;
+  color:red;
+  right:10%;
+}
+
+.action-watch-later{
+position: absolute;
+color: red;
+top:0;
+right:0;
+padding: 1em;
+}
+
+.figure.film-poster {
+  width: 75%;
+}
+
+h1{
+  position: relative;
+}
+
+*/
