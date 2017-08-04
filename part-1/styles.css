@@ -1,62 +1,62 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  box-sizing: inherit;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 100%; /* this will be 16px on most browsers */
-  line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
-}
-
-body {
-  height: 2000px;
-}
-
-.container {
-  width: 90%;
-  height: 200px;
-  margin: auto;
-  border: 3px solid black;
-  background-color: #eee;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  Position: relative;
-}
-
-.red {
-  background-color: pink;
-  top:30%;
-  right:30%;
-}
-
-.green {
-  background-color: lightgreen;
-  bottom:150%;
-  left:20%;
-}
-
-.blue {
-  background-color: lightblue;
-  top: 18%;
-  left: 15%;
-  z-index: 10;
-}
-
-.orange {
-  background-color: orange;
-    top:60%;
-    left:50%;
-  }
-
-.yellow {
-  background-color: yellow;
-  width:100%;
-  position:fixed;
-
-}
++*,
+ +*::before,
+ +*::after {
+ +  box-sizing: border-box;
+ +}
+ +
+ +html {
+ +  box-sizing: inherit;
+ +  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ +  font-size: 100%; /* this will be 16px on most browsers */
+ +  line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
+ +}
+ +
+ +body {
+ +  height: 2000px;
+ +}
+ +
+ +.container {
+ +  width: 90%;
+ +  height: 200px;
+ +  margin: auto;
+ +  border: 3px solid black;
+ +  background-color: #eee;
+ +}
+ +
+ +.box {
+ +  width: 200px;
+ +  height: 200px;
+ +  Position: relative;
+ +}
+ +
+ +.red {
+ +  background-color: pink;
+ +  top:30%;
+ +  right:30%;
+ +}
+ +
+ +.green {
+ +  background-color: lightgreen;
+ +  bottom:150%;
+ +  left:20%;
+ +}
+ +
+ +.blue {
+ +  background-color: lightblue;
+ +  top: 18%;
+ +  left: 15%;
+ +  z-index: 10;
+ +}
+ +
+ +.orange {
+ +  background-color: orange;
+ +    top:60%;
+ +    left:50%;
+ +  }
+ +
+ +.yellow {
+ +  background-color: yellow;
+ +  width:100%;
+ +  position:fixed;
+ +
+ +}
